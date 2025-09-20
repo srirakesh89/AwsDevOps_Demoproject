@@ -45,10 +45,3 @@ please refer to the [Documentation](https://mailchimp.com/developer/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contact
-
-Samarth Khatri - samarth.khatri0000@gmail.com
-
-Project Link: [https://github.com/Samarth-Khatri/Newsletter-Signup](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
