@@ -1,14 +1,17 @@
-FROM node:18-alpine
+# Dev Dockerfile
+FROM node:20-alpine
 
 WORKDIR /app
 
+# install dependencies
 COPY package*.json ./
-
 RUN npm install
 
+# copy source
 COPY . .
 
+# expose default app port (metadata)
 EXPOSE 3000
 
-CMD ["sh", "-c", "npm start || node app.js || sleep infinity"]
-
+# for dev, run with volumes so changes reflect immediately
+CMD ["npm", "run", "start"]
