@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 3000
 
 # for dev, run with volumes so changes reflect immediately
-CMD ["npm", "run", "start"]
+CMD ["node", "src/index.js"]
